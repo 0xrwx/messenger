@@ -12,6 +12,9 @@ function App() {
         <p>
           For test commit
         </p>
+        <p>
+          For test [ commit ]
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
