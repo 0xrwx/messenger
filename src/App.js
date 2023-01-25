@@ -1,19 +1,17 @@
 import './App.css';
 import './input.css';
+import {AppHeader} from "./components/AppHeader/AppHeader";
+import {AppMain} from "./components/AppMain/AppMain";
+import {AppFooter} from "./components/AppFooter/AppFooter";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-Header">
-        <h1 className={"text-7xl font-bold underline"}>Hello messenger</h1>
-      </header>
-      <main className="App-Main">
-
-      </main>
-      <footer className="App-Main">
-
-      </footer>
-    </div>
+    <>
+      <AppHeader/>
+      <AppMain/>
+      <AppFooter/>
+    </>
   );
 }
 
