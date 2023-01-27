@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './input.css';
+import TopBar from "./components/TopBar/TopBar";
+import Chat from "./components/Chat/Chat";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"mx-auto w-[48rem] flex flex-col min-h-screen shadow-2xl shadow-inner"}>
+      <TopBar/>
+      <Chat/>
     </div>
   );
 }
