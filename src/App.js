@@ -1,17 +1,14 @@
-import './App.css';
 import './input.css';
-import {AppHeader} from "./components/AppHeader/AppHeader";
-import {AppMain} from "./components/AppMain/AppMain";
-import {AppFooter} from "./components/AppFooter/AppFooter";
+import TopBar from "./components/TopBar/TopBar";
+import Chat from "./components/Chat/Chat";
 
 
 function App() {
   return (
-    <>
-      <AppHeader/>
-      <AppMain/>
-      <AppFooter/>
-    </>
+    <div className={"mx-auto w-[48rem] flex flex-col min-h-screen shadow-2xl shadow-inner"}>
+      <TopBar/>
+      <Chat/>
+    </div>
   );
 }
 
