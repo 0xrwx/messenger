@@ -2,7 +2,7 @@ import {useState} from "react";
 import Messages from "../Messages/Messages";
 import ClientMessage from "../ClientMessage/ClientMessage";
 
-import me from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/me.jpg';
+import me from '../../../src/data/images/me.jpg';
 
 const Chat = () => {
   const [message, setMessage] = useState('');

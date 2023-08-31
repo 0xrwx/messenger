@@ -1,8 +1,8 @@
-import userLogo_0 from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/userLogo_0.png';
-import userLogo_1 from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/userLogo_1.png';
-import userLogo_2 from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/userLogo_2.png';
-import userLogo_3 from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/userLogo_3.png';
-import userLogo_4 from '/home/onesayd/Documents/Programming/Web/React_apps/messenger/src/data/images/userLogo_4.png';
+import userLogo_0 from './images/userLogo_0.png';
+import userLogo_1 from './images/userLogo_1.png';
+import userLogo_2 from './images/userLogo_2.png';
+import userLogo_3 from './images/userLogo_3.png';
+import userLogo_4 from './images/userLogo_4.png';
 
 export const people = [
   {
